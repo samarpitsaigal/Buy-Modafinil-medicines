@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #1c2d5a;
+}
+
+/* Main Section */
+.contact-section {
+  width: 100%;
+}
+
+/* Intro */
+.contact-intro {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 55px 25px 70px;
+}
+
+.contact-intro h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  color: #182c5d;
+}
+
+.contact-intro p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #303030;
+  max-width: 1150px;
+}
+
+/* Contact Background */
+.contact-wrapper {
+  width: 100%;
+  background: #f3f7f8;
+  padding: 60px max(25px, calc((100% - 1200px) / 2));
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 45px;
+}
+
+/* Left Information */
+.contact-info {
+  padding-top: 15px;
+}
+
+.info-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 25px 5px;
+  border-bottom: 1px solid #d9dddf;
+}
+
+.info-box:last-child {
+  border-bottom: none;
+}
+
+.info-icon {
+  width: 45px;
+  min-width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 32px;
+  color: #1b2e63;
+}
+
+.info-box h3 {
+  color: #203675;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #203675;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.info-box p {
+  color: #203675;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+/* Form */
+.contact-form {
+  width: 100%;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #b9c1c5;
+  border-radius: 7px;
+  background: #fff;
+
+  padding: 15px 16px;
+  margin-bottom: 20px;
+
+  font-size: 17px;
+  font-family: inherit;
+  color: #333;
+
+  outline: none;
+}
+
+.contact-form input {
+  height: 54px;
+}
+
+.contact-form textarea {
+  min-height: 170px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #203675;
+  box-shadow: 0 0 0 2px rgba(32, 54, 117, 0.08);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #555;
+  opacity: 1;
+}
+
+/* Button */
+.contact-form button {
+  border: none;
+  background: #203675;
+  color: white;
+
+  padding: 15px 30px;
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #14244f;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contact-info {
+    padding-top: 0;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .contact-intro {
+    padding: 35px 18px 45px;
+  }
+
+  .contact-intro h2 {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  .contact-intro p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .contact-wrapper {
+    padding: 35px 18px;
+  }
+
+  .info-box {
+    gap: 12px;
+    padding: 20px 0;
+  }
+
+  .info-icon {
+    width: 38px;
+    min-width: 38px;
+    font-size: 27px;
+  }
+
+  .info-box h3 {
+    font-size: 18px;
+  }
+
+  .info-box a,
+  .info-box p {
+    font-size: 15px;
+  }
+
+  .contact-form input {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .contact-form textarea {
+    min-height: 140px;
+    font-size: 15px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}
+
+.home-modafinil{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 16px 30px;
+  background: #fff;
+  border-bottom: 1px solid #e6e9ee;
+  margin-bottom: 0;
+  padding-left: 12rem;
+}
+.home-modafinil h2{
+  font-size: 17px;
+  font-weight: 600;
+  color: skyblue;
+}
+
+.home-modafinil h2 a{
+  text-decoration: none;
+
+  color: #21457f;
+
+  transition: color 0.3s ease;
+}
+.home-modafinil h2 a:hover{
+  color: #d83d76;
+}
+
+.home-modafinil p{
+  color: #21457fc2;
+  font-size: 17px;
+  font-weight: 600;
+}

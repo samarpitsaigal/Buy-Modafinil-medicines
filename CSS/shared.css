@@ -1,0 +1,747 @@
+/* =================================================
+   SHARED HEADER + FOOTER
+   Used on all pages
+================================================= */
+
+/* =========================
+   DELIVERY BAR
+========================= */
+
+.delivery-bar {
+  width: 100%;
+  height: 50px;
+  background: #ed0000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.delivery-bar p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+/* =========================
+   FEATURE BAR
+========================= */
+
+.feature-bar {
+  width: 100%;
+  min-height: 58px;
+
+  background: #111d70;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 55px;
+
+  padding: 8px 20px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.feature-item i {
+  color: #66d1d2;
+  font-size: 25px;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  width: 100%;
+  min-height: 130px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 15px 8%;
+
+  background: white;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+
+  position: relative;
+  z-index: 100;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  flex-shrink: 0;
+}
+
+.logo-australia {
+  width: 110px;
+  height: 80px;
+
+  background: #14216e;
+
+  clip-path: polygon(
+    15% 20%,
+    40% 5%,
+    75% 20%,
+    90% 45%,
+    70% 60%,
+    85% 80%,
+    55% 95%,
+    30% 75%,
+    5% 80%,
+    15% 55%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 25px;
+}
+
+.logo-text h2 {
+  line-height: 1;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.logo-text h2:first-child {
+  color: #36aeb6;
+}
+
+.logo-text h2:last-child {
+  color: #14216e;
+  margin-top: 5px;
+}
+
+
+/* =========================
+   NAV MENU
+========================= */
+
+.nav-menu {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+
+  gap: 32px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+
+  color: #101a68;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #36aeb6;
+}
+
+
+/* =========================
+   CART
+========================= */
+
+.cart {
+  color: #38b7b9 !important;
+  font-size: 28px !important;
+}
+
+
+/* =========================
+   CALL BOX
+========================= */
+
+.call-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: #14216e;
+}
+
+.call-box > i {
+  color: #38b7b9;
+  font-size: 38px;
+}
+
+.call-box div {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-box span {
+  font-size: 17px;
+}
+
+.call-box strong {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+
+/* =========================
+   MOBILE BUTTON
+========================= */
+
+.menu-btn {
+  display: none;
+
+  border: none;
+  background: transparent;
+
+  color: #14216e;
+
+  font-size: 30px;
+
+  cursor: pointer;
+}
+
+
+/* =================================================
+   TABLET
+================================================= */
+
+@media (max-width: 1100px) {
+
+  .navbar {
+    padding: 15px 4%;
+  }
+
+  .nav-menu {
+    gap: 18px;
+  }
+
+  .nav-menu a {
+    font-size: 17px;
+  }
+
+  .logo-australia {
+    width: 80px;
+    height: 65px;
+  }
+
+  .logo-text h2 {
+    font-size: 22px;
+  }
+
+  .feature-bar {
+    gap: 25px;
+  }
+
+  .feature-item {
+    font-size: 15px;
+  }
+
+}
+
+
+/* =================================================
+   MOBILE
+================================================= */
+
+@media (max-width: 768px) {
+
+  /* Delivery */
+
+  .delivery-bar {
+    height: 42px;
+  }
+
+  .delivery-bar p {
+    font-size: 15px;
+  }
+
+
+  /* Feature bar */
+
+  .feature-bar {
+    min-height: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+
+    padding: 12px 15px;
+  }
+
+  .feature-item {
+    justify-content: center;
+
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .feature-item i {
+    font-size: 16px;
+  }
+
+
+  /* Navbar */
+
+  .navbar {
+    min-height: 85px;
+
+    padding: 10px 20px;
+
+    justify-content: space-between;
+  }
+
+
+  /* Logo */
+
+  .logo {
+    gap: 8px;
+  }
+
+  .logo-australia {
+    width: 55px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .logo-text h2 {
+    font-size: 17px;
+  }
+
+
+  /* Menu Button */
+
+  .menu-btn {
+    display: block;
+  }
+
+
+  /* Navigation */
+
+  .nav-menu {
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    background: white;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 0;
+
+    padding: 10px 20px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu a {
+    font-size: 17px;
+
+    padding: 14px 5px;
+
+    border-bottom: 1px solid #ddd;
+  }
+
+
+  /* Cart */
+
+  .cart {
+    display: none;
+  }
+
+
+  /* Call */
+
+  .call-box {
+    padding: 14px 5px;
+  }
+
+  .call-box > i {
+    font-size: 28px;
+  }
+
+  .call-box span {
+    font-size: 14px;
+  }
+
+  .call-box strong {
+    font-size: 16px;
+  }
+
+}
+
+
+/* ==============================
+   FOOTER
+================================= */
+
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #02040b 0%,
+    #050914 45%,
+    #172f91 100%
+  );
+
+  color: #fff;
+
+  padding: 55px 5% 20px;
+}
+
+
+/* ==============================
+   MAIN FOOTER
+================================= */
+
+.footer-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns:
+    2.2fr
+    1fr
+    1fr
+    1.5fr;
+
+  gap: 55px;
+}
+
+
+/* ==============================
+   FOOTER COLUMN
+================================= */
+
+.footer-column {
+  color: #fff;
+}
+
+.footer-column h2 {
+  font-size: 27px;
+  margin-bottom: 18px;
+}
+
+.footer-column p {
+  font-size: 15px;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+.footer-column h4 {
+  color: #61c8c3;
+  font-size: 15px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+
+/* ==============================
+   PAYMENT
+================================= */
+
+.payment-methods {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  margin: 15px 0 30px;
+}
+
+.payment-methods span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.payment-methods span:nth-child(2) {
+  font-size: 27px;
+}
+
+.payment-methods span:nth-child(3) {
+  background: #fff;
+  color: #111;
+
+  padding: 8px 10px;
+
+  border-radius: 7px;
+
+  font-size: 17px;
+}
+
+
+/* ==============================
+   AUSTRALIA POST
+================================= */
+
+.auspost {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin: 12px 0 25px;
+
+  color: #ff4b30;
+
+  font-weight: 700;
+}
+
+.auspost-icon {
+  font-size: 45px;
+}
+
+.auspost span:last-child {
+  font-size: 17px;
+}
+
+
+/* ==============================
+   LINKS
+================================= */
+
+.footer-link {
+  color: #fff !important;
+  font-weight: 600;
+  margin-bottom: 6px !important;
+}
+
+.footer-link:hover {
+  color: #61c8c3 !important;
+}
+
+
+/* ==============================
+   MENU
+================================= */
+
+.footer-menu {
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  font-size: 16px;
+  font-weight: 600;
+
+  margin-bottom: 10px;
+
+  cursor: pointer;
+}
+
+.footer-menu li:hover {
+  color: #61c8c3;
+}
+
+
+/* ==============================
+   CONTACT
+================================= */
+
+.contact-column p {
+  margin-bottom: 22px;
+}
+
+.contact {
+  font-size: 16px !important;
+}
+
+
+/* ==============================
+   DISCLAIMER
+================================= */
+
+.disclaimer {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 35px auto 0;
+
+  padding-top: 25px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.disclaimer h4 {
+  display: inline;
+
+  font-size: 15px;
+
+  color: #fff;
+}
+
+.disclaimer p {
+  display: inline;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+
+  color: #fff;
+}
+
+
+/* ==============================
+   BOTTOM
+================================= */
+
+.footer-bottom {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 35px auto 0;
+
+  padding-top: 25px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  font-weight: 600;
+
+  line-height: 1.6;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #61c8c3;
+}
+
+
+/* ==============================
+   SOCIAL ICONS
+================================= */
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+
+  font-size: 24px;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+
+/* ==============================
+   TABLET
+================================= */
+
+@media (max-width: 1000px) {
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+}
+
+
+/* ==============================
+   MOBILE
+================================= */
+
+@media (max-width: 600px) {
+
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-column h2 {
+    font-size: 23px;
+  }
+
+  .footer-column p {
+    font-size: 14px;
+  }
+
+  .payment-methods {
+    flex-wrap: wrap;
+  }
+
+  .footer-menu li {
+    font-size: 15px;
+  }
+
+  .disclaimer {
+    margin-top: 25px;
+  }
+
+  .disclaimer p {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-icons {
+    align-self: flex-end;
+  }
+
+}
