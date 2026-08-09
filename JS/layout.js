@@ -1,7 +1,3 @@
-// =================================================
-// SHARED LAYOUT (HEADER + FOOTER)
-// Loads HTML/header.html and HTML/footer.html
-// =================================================
 
 const isInHTMLFolder = /\/HTML\//i.test(window.location.pathname);
 const base = isInHTMLFolder ? "" : "HTML/";

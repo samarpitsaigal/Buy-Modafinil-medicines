@@ -1,6 +1,3 @@
-// =================================================
-// PRODUCTS SLIDER
-// =================================================
 
 const productTrack = document.getElementById("productsTrack");
 const productPrevBtn = document.getElementById("prevBtn");
@@ -84,11 +81,6 @@ productNextBtn.addEventListener("click", () => {
   }
 });
 
-
-// =================================================
-// REVIEWS DATA
-// =================================================
-
   const faqQuestions = document.querySelectorAll(".faq-question");
 
   faqQuestions.forEach((question) => {
@@ -109,7 +101,6 @@ productNextBtn.addEventListener("click", () => {
     });
 
   });
-
 
 const reviews = [
   {
@@ -161,11 +152,6 @@ const reviews = [
     author: "Lucy M - Hobart, TAS",
   },
 ];
-
-
-// =================================================
-// REVIEWS SLIDER
-// =================================================
 
 const reviewTrack = document.getElementById("reviewsTrack");
 const reviewPrevBtn = document.getElementById("reviewPrevBtn");
@@ -231,11 +217,6 @@ reviewNextBtn.addEventListener("click", () => {
     updateReviewSlide();
   }
 });
-
-
-// =================================================
-// INIT
-// =================================================
 
 window.addEventListener("resize", () => {
   updateProductSlide();

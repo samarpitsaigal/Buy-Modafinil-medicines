@@ -1,6 +1,3 @@
-// =================================================
-// CART LOGIC (localStorage based)
-// =================================================
 
 function getCart() {
   try {
@@ -80,11 +77,6 @@ function getCartSubtotal() {
     0
   );
 }
-
-
-// =================================================
-// CART PAGE RENDER
-// =================================================
 
 const cartItems = document.getElementById("cartItems");
 

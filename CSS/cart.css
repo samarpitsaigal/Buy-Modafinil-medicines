@@ -10,10 +10,6 @@ body {
   color: #222;
 }
 
-/* =========================
-   CART SECTION
-========================= */
-
 .cart-section {
   max-width: 1150px;
   margin: auto;
@@ -44,22 +40,12 @@ body {
   color: #d83d76;
 }
 
-
-/* =========================
-   CART LAYOUT
-========================= */
-
 .cart-layout {
   display: grid;
   grid-template-columns: 1fr 340px;
   gap: 30px;
   align-items: start;
 }
-
-
-/* =========================
-   CART ITEMS
-========================= */
 
 .cart-items {
   background: #fff;
@@ -118,9 +104,6 @@ body {
   font-size: 14px;
 }
 
-
-/* Quantity control */
-
 .qty-control {
   display: flex;
   align-items: center;
@@ -162,18 +145,12 @@ body {
   font-size: 15px;
 }
 
-
-/* Row total */
-
 .cart-row-total {
   font-size: 17px;
   font-weight: 700;
   color: #243b75;
   text-align: right;
 }
-
-
-/* Remove */
 
 .remove-btn {
   border: none;
@@ -190,9 +167,6 @@ body {
 .remove-btn:hover {
   color: #d83d76;
 }
-
-
-/* Empty cart */
 
 .cart-empty {
   text-align: center;
@@ -242,11 +216,6 @@ body {
   background: #b92d62;
   transform: translateY(-2px);
 }
-
-
-/* =========================
-   ORDER SUMMARY
-========================= */
 
 .cart-summary {
   background: #fff;
@@ -345,11 +314,6 @@ body {
   color: #d83d76;
   border-color: #d83d76;
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 900px) {
   .cart-layout {

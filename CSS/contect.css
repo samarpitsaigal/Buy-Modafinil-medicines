@@ -10,12 +10,10 @@ body {
   color: #1c2d5a;
 }
 
-/* Main Section */
 .contact-section {
   width: 100%;
 }
 
-/* Intro */
 .contact-intro {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,7 +34,6 @@ body {
   max-width: 1150px;
 }
 
-/* Contact Background */
 .contact-wrapper {
   width: 100%;
   background: #f3f7f8;
@@ -47,7 +44,6 @@ body {
   gap: 45px;
 }
 
-/* Left Information */
 .contact-info {
   padding-top: 15px;
 }
@@ -99,7 +95,6 @@ body {
   line-height: 1.6;
 }
 
-/* Form */
 .contact-form {
   width: 100%;
 }
@@ -146,7 +141,6 @@ body {
   opacity: 1;
 }
 
-/* Button */
 .contact-form button {
   border: none;
   background: #203675;
@@ -166,11 +160,6 @@ body {
   background: #14244f;
 }
 
-
-/* =========================
-   TABLET
-========================= */
-
 @media (max-width: 900px) {
 
   .contact-wrapper {
@@ -186,11 +175,6 @@ body {
     max-width: 100%;
   }
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 

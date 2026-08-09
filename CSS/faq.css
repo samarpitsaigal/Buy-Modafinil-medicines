@@ -10,11 +10,6 @@ body {
   color: #222;
 }
 
-
-/* =========================
-   FAQ SECTION
-========================= */
-
 .faq-section {
   width: 100%;
   padding: 60px 30px;
@@ -32,11 +27,6 @@ body {
 
   counter-reset: faq;
 }
-
-
-/* =========================
-   MAIN HEADING
-========================= */
 
 .faq-container > h1 {
   grid-column: 1 / -1;
@@ -61,11 +51,6 @@ body {
   margin-bottom: 20px;
 }
 
-
-/* =========================
-   FAQ ITEM (CARD)
-========================= */
-
 .faq-item {
   counter-increment: faq;
 
@@ -86,11 +71,6 @@ body {
   transform: translateY(-4px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
-
-
-/* =========================
-   QUESTION
-========================= */
 
 .faq-item h2 {
   display: flex;
@@ -126,11 +106,6 @@ body {
   justify-content: center;
 }
 
-
-/* =========================
-   ANSWER
-========================= */
-
 .faq-item p {
   color: #4b5563;
   font-size: 15px;
@@ -142,11 +117,6 @@ body {
   color: #243b75;
   font-weight: 700;
 }
-
-
-/* =========================
-   LEARN MORE
-========================= */
 
 .learn-more {
   margin-top: 18px;
@@ -165,11 +135,6 @@ body {
   text-decoration: underline;
 }
 
-
-/* =========================
-   LIST
-========================= */
-
 .faq-item ul {
   padding-left: 20px;
   margin-top: 12px;
@@ -185,11 +150,6 @@ body {
 .faq-item li strong {
   color: #243b75;
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 768px) {
 
@@ -207,11 +167,6 @@ body {
   }
 
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 

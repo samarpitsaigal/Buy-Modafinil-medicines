@@ -36,9 +36,6 @@ body {
   align-items: start;
 }
 
-
-/* Product Image */
-
 .product-image {
   background: #fff;
   border: 1px solid #e1e5e9;
@@ -58,9 +55,6 @@ body {
   max-height: 250px;
   object-fit: contain;
 }
-
-
-/* Product Info */
 
 .product-info h1 {
   color: #243b75;
@@ -109,9 +103,6 @@ body {
   text-decoration: line-through;
   margin-left: 10px;
 }
-
-
-/* Pricing Section */
 
 .pricing-section {
   background: #fff;
@@ -183,9 +174,6 @@ body {
   transform: translateY(-2px);
 }
 
-
-/* Not Found */
-
 .not-found {
   grid-column: 1 / -1;
   text-align: center;
@@ -201,11 +189,6 @@ body {
   color: #21457f;
 }
 
-
-/* =========================
-   TABLET
-========================= */
-
 @media (max-width: 1000px) {
   .details-container {
     grid-template-columns: 1fr;
@@ -219,10 +202,6 @@ body {
     grid-column: 1 / -1;
   }
 }
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
   .details-section {

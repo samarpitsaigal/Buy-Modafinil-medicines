@@ -1,11 +1,4 @@
-/* =================================================
-   SHARED HEADER + FOOTER
-   Used on all pages
-================================================= */
 
-/* =========================
-   DELIVERY BAR
-========================= */
 
 .delivery-bar {
   width: 100%;
@@ -23,11 +16,6 @@
   font-size: 20px;
   font-weight: 700;
 }
-
-
-/* =========================
-   FEATURE BAR
-========================= */
 
 .feature-bar {
   width: 100%;
@@ -60,11 +48,6 @@
   font-size: 25px;
 }
 
-
-/* =========================
-   NAVBAR
-========================= */
-
 .navbar {
   width: 100%;
   min-height: 130px;
@@ -81,11 +64,6 @@
   position: relative;
   z-index: 100;
 }
-
-
-/* =========================
-   LOGO
-========================= */
 
 .logo {
   display: flex;
@@ -138,11 +116,6 @@
   margin-top: 5px;
 }
 
-
-/* =========================
-   NAV MENU
-========================= */
-
 .nav-menu {
   margin-left: auto;
 
@@ -167,20 +140,10 @@
   color: #36aeb6;
 }
 
-
-/* =========================
-   CART
-========================= */
-
 .cart {
   color: #38b7b9 !important;
   font-size: 28px !important;
 }
-
-
-/* =========================
-   CALL BOX
-========================= */
 
 .call-box {
   display: flex;
@@ -209,11 +172,6 @@
   white-space: nowrap;
 }
 
-
-/* =========================
-   MOBILE BUTTON
-========================= */
-
 .menu-btn {
   display: none;
 
@@ -226,11 +184,6 @@
 
   cursor: pointer;
 }
-
-
-/* =================================================
-   TABLET
-================================================= */
 
 @media (max-width: 1100px) {
 
@@ -265,14 +218,9 @@
 
 }
 
-
-/* =================================================
-   MOBILE
-================================================= */
-
 @media (max-width: 768px) {
 
-  /* Delivery */
+  
 
   .delivery-bar {
     height: 42px;
@@ -282,8 +230,7 @@
     font-size: 15px;
   }
 
-
-  /* Feature bar */
+  
 
   .feature-bar {
     min-height: auto;
@@ -307,8 +254,7 @@
     font-size: 16px;
   }
 
-
-  /* Navbar */
+  
 
   .navbar {
     min-height: 85px;
@@ -318,8 +264,7 @@
     justify-content: space-between;
   }
 
-
-  /* Logo */
+  
 
   .logo {
     gap: 8px;
@@ -335,15 +280,13 @@
     font-size: 17px;
   }
 
-
-  /* Menu Button */
+  
 
   .menu-btn {
     display: block;
   }
 
-
-  /* Navigation */
+  
 
   .nav-menu {
     display: none;
@@ -380,15 +323,13 @@
     border-bottom: 1px solid #ddd;
   }
 
-
-  /* Cart */
+  
 
   .cart {
     display: none;
   }
 
-
-  /* Call */
+  
 
   .call-box {
     padding: 14px 5px;
@@ -408,11 +349,6 @@
 
 }
 
-
-/* ==============================
-   FOOTER
-================================= */
-
 .footer {
   width: 100%;
   background: linear-gradient(
@@ -426,11 +362,6 @@
 
   padding: 55px 5% 20px;
 }
-
-
-/* ==============================
-   MAIN FOOTER
-================================= */
 
 .footer-container {
   width: 100%;
@@ -447,11 +378,6 @@
 
   gap: 55px;
 }
-
-
-/* ==============================
-   FOOTER COLUMN
-================================= */
 
 .footer-column {
   color: #fff;
@@ -474,11 +400,6 @@
   margin-top: 24px;
   margin-bottom: 10px;
 }
-
-
-/* ==============================
-   PAYMENT
-================================= */
 
 .payment-methods {
   display: flex;
@@ -510,11 +431,6 @@
   font-size: 17px;
 }
 
-
-/* ==============================
-   AUSTRALIA POST
-================================= */
-
 .auspost {
   display: flex;
   align-items: center;
@@ -535,11 +451,6 @@
   font-size: 17px;
 }
 
-
-/* ==============================
-   LINKS
-================================= */
-
 .footer-link {
   color: #fff !important;
   font-weight: 600;
@@ -549,11 +460,6 @@
 .footer-link:hover {
   color: #61c8c3 !important;
 }
-
-
-/* ==============================
-   MENU
-================================= */
 
 .footer-menu {
   list-style: none;
@@ -575,11 +481,6 @@
   color: #61c8c3;
 }
 
-
-/* ==============================
-   CONTACT
-================================= */
-
 .contact-column p {
   margin-bottom: 22px;
 }
@@ -587,11 +488,6 @@
 .contact {
   font-size: 16px !important;
 }
-
-
-/* ==============================
-   DISCLAIMER
-================================= */
 
 .disclaimer {
   width: 100%;
@@ -621,11 +517,6 @@
 
   color: #fff;
 }
-
-
-/* ==============================
-   BOTTOM
-================================= */
 
 .footer-bottom {
   width: 100%;
@@ -661,11 +552,6 @@
   color: #61c8c3;
 }
 
-
-/* ==============================
-   SOCIAL ICONS
-================================= */
-
 .social-icons {
   display: flex;
   align-items: center;
@@ -681,11 +567,6 @@
   text-decoration: none;
 }
 
-
-/* ==============================
-   TABLET
-================================= */
-
 @media (max-width: 1000px) {
 
   .footer-container {
@@ -694,11 +575,6 @@
   }
 
 }
-
-
-/* ==============================
-   MOBILE
-================================= */
 
 @media (max-width: 600px) {
 
