@@ -9,11 +9,6 @@ body {
   background: #fff;
 }
 
-
-/* =========================
-   DELIVERY BAR
-========================= */
-
 .delivery-bar {
   width: 100%;
   height: 50px;
@@ -30,11 +25,6 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
-
-
-/* =========================
-   FEATURE BAR
-========================= */
 
 .feature-bar {
   width: 100%;
@@ -67,11 +57,6 @@ body {
   font-size: 25px;
 }
 
-
-/* =========================
-   NAVBAR
-========================= */
-
 .navbar {
   width: 100%;
   min-height: 130px;
@@ -88,11 +73,6 @@ body {
   position: relative;
   z-index: 100;
 }
-
-
-/* =========================
-   LOGO
-========================= */
 
 .logo {
   display: flex;
@@ -145,11 +125,6 @@ body {
   margin-top: 5px;
 }
 
-
-/* =========================
-   NAV MENU
-========================= */
-
 .nav-menu {
   margin-left: auto;
 
@@ -174,20 +149,10 @@ body {
   color: #36aeb6;
 }
 
-
-/* =========================
-   CART
-========================= */
-
 .cart {
   color: #38b7b9 !important;
   font-size: 28px !important;
 }
-
-
-/* =========================
-   CALL BOX
-========================= */
 
 .call-box {
   display: flex;
@@ -216,11 +181,6 @@ body {
   white-space: nowrap;
 }
 
-
-/* =========================
-   MOBILE BUTTON
-========================= */
-
 .menu-btn {
   display: none;
 
@@ -233,11 +193,6 @@ body {
 
   cursor: pointer;
 }
-
-
-/* =================================================
-   TABLET
-================================================= */
 
 @media (max-width: 1100px) {
 
@@ -284,14 +239,9 @@ body {
 
 }
 
-
-/* =================================================
-   MOBILE
-================================================= */
-
 @media (max-width: 768px) {
 
-  /* Delivery */
+  
 
   .delivery-bar {
     height: 42px;
@@ -301,8 +251,7 @@ body {
     font-size: 15px;
   }
 
-
-  /* Feature bar */
+  
 
   .feature-bar {
     min-height: auto;
@@ -326,8 +275,7 @@ body {
     font-size: 16px;
   }
 
-
-  /* Navbar */
+  
 
   .navbar {
     min-height: 85px;
@@ -337,8 +285,7 @@ body {
     justify-content: space-between;
   }
 
-
-  /* Logo */
+  
 
   .logo {
     gap: 8px;
@@ -354,15 +301,13 @@ body {
     font-size: 17px;
   }
 
-
-  /* Menu Button */
+  
 
   .menu-btn {
     display: block;
   }
 
-
-  /* Navigation */
+  
 
   .nav-menu {
     display: none;
@@ -399,15 +344,13 @@ body {
     border-bottom: 1px solid #ddd;
   }
 
-
-  /* Cart */
+  
 
   .cart {
     display: none;
   }
 
-
-  /* Call */
+  
 
   .call-box {
     padding: 14px 5px;
@@ -445,11 +388,6 @@ body {
   object-fit: cover;
   display: block;
 }
-
-
-/* =================================================
-   PRODUCTS SECTION
-================================================= */
 
 .products-section {
   max-width: 1200px;
@@ -614,7 +552,6 @@ body {
   background: #1f31a8;
 }
 
-
 @media (max-width: 900px) {
 
   .product-card {
@@ -622,7 +559,6 @@ body {
   }
 
 }
-
 
 @media (max-width: 480px) {
 
@@ -635,8 +571,6 @@ body {
   }
 
 }
-
-
 
 .features-section {
   width: 100%;
@@ -654,9 +588,6 @@ body {
   gap: 20px;
 }
 
-
-/* Individual Item */
-
 .feature-box {
   display: flex;
   flex-direction: column;
@@ -667,9 +598,6 @@ body {
 
   min-width: 0;
 }
-
-
-/* Circle Icon */
 
 .feature-icon {
   width: 92px;
@@ -686,17 +614,11 @@ body {
   margin-bottom: 12px;
 }
 
-
-/* Icon */
-
 .feature-icon i {
   color: #d9e2ed;
 
   font-size: 38px;
 }
-
-
-/* Text */
 
 .feature-box p {
   color: #19b7c5;
@@ -708,11 +630,6 @@ body {
 
   white-space: nowrap;
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 1100px) {
 
@@ -734,11 +651,6 @@ body {
   }
 
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 768px) {
 
@@ -773,11 +685,6 @@ body {
 
 }
 
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
 @media (max-width: 480px) {
 
   .features-section {
@@ -803,22 +710,12 @@ body {
 
 }
 
-
-/* =========================
-   REVIEWS SECTION
-========================= */
-
 .reviews-section {
   width: 100%;
   padding: 30px 5% 70px;
 
   background: #fff;
 }
-
-
-/* =========================
-   TITLE
-========================= */
 
 .reviews-title {
   text-align: center;
@@ -833,11 +730,6 @@ body {
   line-height: 1.2;
 }
 
-
-/* =========================
-   WRAPPER
-========================= */
-
 .reviews-wrapper {
   width: 100%;
 
@@ -846,11 +738,6 @@ body {
 
   gap: 20px;
 }
-
-
-/* =========================
-   CARDS CONTAINER
-========================= */
 
 .reviews-container {
   flex: 1;
@@ -865,20 +752,10 @@ body {
   transition: transform 0.45s ease;
 }
 
-
-/* =========================
-   REVIEW SLOT
-========================= */
-
 .review-slot {
   flex: 0 0 33.333%;
   padding: 0 12.5px;
 }
-
-
-/* =========================
-   REVIEW CARD
-========================= */
 
 .review-card {
   flex: 0 0 auto;
@@ -908,11 +785,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-
-/* =========================
-   CARD TITLE
-========================= */
-
 .review-card h3 {
   color: #18234c;
 
@@ -924,11 +796,6 @@ body {
   line-height: 1.2;
 }
 
-
-/* =========================
-   STARS
-========================= */
-
 .stars {
   color: #e5a51b;
 
@@ -938,11 +805,6 @@ body {
 
   margin-bottom: 22px;
 }
-
-
-/* =========================
-   REVIEW TEXT
-========================= */
 
 .review-card p {
   color: #26314f;
@@ -956,11 +818,6 @@ body {
   max-width: 430px;
 }
 
-
-/* =========================
-   CUSTOMER NAME
-========================= */
-
 .review-card h4 {
   margin-top: auto;
 
@@ -972,11 +829,6 @@ body {
 
   line-height: 1.3;
 }
-
-
-/* =========================
-   ARROWS
-========================= */
 
 .review-arrow {
   width: 45px;
@@ -1005,11 +857,6 @@ body {
   color: #1648a0;
   transform: scale(1.15);
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 1100px) {
 
@@ -1041,11 +888,6 @@ body {
 
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
 @media (max-width: 768px) {
 
   .reviews-section {
@@ -1058,11 +900,9 @@ body {
     margin-bottom: 30px;
   }
 
-
   .reviews-wrapper {
     gap: 5px;
   }
-
 
   .review-slot {
     flex: 0 0 100%;
@@ -1076,11 +916,9 @@ body {
     border-radius: 25px;
   }
 
-
   .review-card h3 {
     font-size: 21px;
   }
-
 
   .stars {
     font-size: 23px;
@@ -1088,18 +926,15 @@ body {
     margin-bottom: 18px;
   }
 
-
   .review-card p {
     font-size: 16px;
 
     line-height: 1.5;
   }
 
-
   .review-card h4 {
     font-size: 17px;
   }
-
 
   .review-arrow {
     width: 30px;
@@ -1108,11 +943,6 @@ body {
   }
 
 }
-
-
-/* =========================
-   SMALL MOBILE
-========================= */
 
 @media (max-width: 480px) {
 
@@ -1158,9 +988,6 @@ body {
   object-fit: cover;
 }
 
-
-
-
 .modafinil-section {
   width: 100%;
   max-width: 1250px;
@@ -1188,8 +1015,6 @@ body {
   gap: 20px;
 }
 
-/* Individual box */
-
 .info-box {
   display: flex;
   align-items: flex-start;
@@ -1206,8 +1031,6 @@ body {
 
   min-height: 120px;
 }
-
-/* Tick circle */
 
 .icon {
   flex-shrink: 0;
@@ -1230,8 +1053,6 @@ body {
   margin-top: 3px;
 }
 
-/* Heading */
-
 .info-box h3 {
   color: #173b73;
   font-size: 22px;
@@ -1241,8 +1062,6 @@ body {
   margin-bottom: 8px;
 }
 
-/* Paragraph */
-
 .info-box p {
   color: #263746;
 
@@ -1251,8 +1070,6 @@ body {
 
   font-weight: 400;
 }
-
-/* List */
 
 .info-box ul {
   margin-top: 7px;
@@ -1273,11 +1090,6 @@ body {
 .info-box em {
   font-style: italic;
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 900px) {
 
@@ -1303,11 +1115,6 @@ body {
     font-size: 16px;
   }
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 
@@ -1342,7 +1149,6 @@ body {
     line-height: 1.45;
   }
 }
-
 
 .choose-product{
   gap: 20px;
@@ -1387,11 +1193,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* =========================
-   USED BY SECTION
-========================= */
-
 .used-by {
   width: 100%;
   background: #162b91;
@@ -1405,9 +1206,6 @@ body {
   margin: auto;
 }
 
-
-/* Heading */
-
 .used-container > h2 {
   text-align: center;
 
@@ -1416,11 +1214,6 @@ body {
 
   margin-bottom: 22px;
 }
-
-
-/* =========================
-   ITEMS CONTAINER
-========================= */
 
 .used-list {
   width: 100%;
@@ -1434,11 +1227,6 @@ body {
   gap: 15px;
 }
 
-
-/* =========================
-   SINGLE ITEM
-========================= */
-
 .used-item {
   display: flex;
   flex-direction: column;
@@ -1448,11 +1236,6 @@ body {
 
   text-align: center;
 }
-
-
-/* =========================
-   ICON CIRCLE
-========================= */
 
 .used-icon {
   width: 105px;
@@ -1473,18 +1256,10 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.12);
 }
 
-
-/* Icon */
-
 .used-icon i {
   font-size: 48px;
   color: #e5ead7;
 }
-
-
-/* =========================
-   ITEM TITLE
-========================= */
 
 .used-item h3 {
   color: #ffffff;
@@ -1497,11 +1272,6 @@ body {
   white-space: nowrap;
 }
 
-
-/* =========================
-   BOTTOM TEXT
-========================= */
-
 .bottom-text {
   text-align: center;
 
@@ -1513,11 +1283,6 @@ body {
   margin-top: 28px;
 }
 
-
-/* =========================
-   LARGE SCREEN
-========================= */
-
 @media (max-width: 1200px) {
 
   .used-list {
@@ -1526,11 +1291,6 @@ body {
   }
 
 }
-
-
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 768px) {
 
@@ -1562,11 +1322,6 @@ body {
   }
 
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 480px) {
 
@@ -1606,13 +1361,6 @@ body {
 
 }
 
-
-
-
-/* ==============================
-   FOOTER
-================================= */
-
 .footer {
   width: 100%;
   background: linear-gradient(
@@ -1626,11 +1374,6 @@ body {
 
   padding: 55px 5% 20px;
 }
-
-
-/* ==============================
-   MAIN FOOTER
-================================= */
 
 .footer-container {
   width: 100%;
@@ -1647,11 +1390,6 @@ body {
 
   gap: 55px;
 }
-
-
-/* ==============================
-   FOOTER COLUMN
-================================= */
 
 .footer-column {
   color: #fff;
@@ -1674,11 +1412,6 @@ body {
   margin-top: 24px;
   margin-bottom: 10px;
 }
-
-
-/* ==============================
-   PAYMENT
-================================= */
 
 .payment-methods {
   display: flex;
@@ -1710,11 +1443,6 @@ body {
   font-size: 17px;
 }
 
-
-/* ==============================
-   AUSTRALIA POST
-================================= */
-
 .auspost {
   display: flex;
   align-items: center;
@@ -1735,11 +1463,6 @@ body {
   font-size: 17px;
 }
 
-
-/* ==============================
-   LINKS
-================================= */
-
 .footer-link {
   color: #fff !important;
   font-weight: 600;
@@ -1749,11 +1472,6 @@ body {
 .footer-link:hover {
   color: #61c8c3 !important;
 }
-
-
-/* ==============================
-   MENU
-================================= */
 
 .footer-menu {
   list-style: none;
@@ -1775,11 +1493,6 @@ body {
   color: #61c8c3;
 }
 
-
-/* ==============================
-   CONTACT
-================================= */
-
 .contact-column p {
   margin-bottom: 22px;
 }
@@ -1787,11 +1500,6 @@ body {
 .contact {
   font-size: 16px !important;
 }
-
-
-/* ==============================
-   DISCLAIMER
-================================= */
 
 .disclaimer {
   width: 100%;
@@ -1821,11 +1529,6 @@ body {
 
   color: #fff;
 }
-
-
-/* ==============================
-   BOTTOM
-================================= */
 
 .footer-bottom {
   width: 100%;
@@ -1861,11 +1564,6 @@ body {
   color: #61c8c3;
 }
 
-
-/* ==============================
-   SOCIAL ICONS
-================================= */
-
 .social-icons {
   display: flex;
   align-items: center;
@@ -1881,11 +1579,6 @@ body {
   text-decoration: none;
 }
 
-
-/* ==============================
-   TABLET
-================================= */
-
 @media (max-width: 1000px) {
 
   .footer-container {
@@ -1894,11 +1587,6 @@ body {
   }
 
 }
-
-
-/* ==============================
-   MOBILE
-================================= */
 
 @media (max-width: 600px) {
 
@@ -1946,21 +1634,12 @@ body {
 
 }
 
-
-
-
-
-/* ================= FAQ SECTION ================= */
-
 .faq-section {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
   padding: 30px 70px 80px;
 }
-
-
-/* ================= HEADING ================= */
 
 .faq-title {
   text-align: center;
@@ -1969,9 +1648,6 @@ body {
   margin: 0 0 55px;
   font-weight: 700;
 }
-
-
-/* ================= TWO COLUMNS ================= */
 
 .faq-grid {
   display: grid;
@@ -1983,9 +1659,6 @@ body {
   width: 100%;
 }
 
-
-/* ================= FAQ ITEM ================= */
-
 .faq-item {
   border-top: 1px solid #777;
 }
@@ -1993,9 +1666,6 @@ body {
 .faq-item:last-child {
   border-bottom: 1px solid #777;
 }
-
-
-/* ================= QUESTION ================= */
 
 .faq-question {
   display: flex;
@@ -2009,7 +1679,6 @@ body {
   cursor: pointer;
 }
 
-
 .faq-question h2 {
   margin: 0;
 
@@ -2018,9 +1687,6 @@ body {
 
   font-weight: 700;
 }
-
-
-/* ================= ICON ================= */
 
 .faq-toggle {
   width: 35px;
@@ -2040,7 +1706,6 @@ body {
   justify-content: center;
 }
 
-
 .icon {
   width: 25px;
   height: 25px;
@@ -2059,9 +1724,6 @@ body {
   transition: 0.2s ease;
 }
 
-
-/* ================= ANSWER ================= */
-
 .faq-answer {
   max-height: 500px;
 
@@ -2077,7 +1739,6 @@ body {
     padding 0.35s ease;
 }
 
-
 .faq-answer p {
   margin: 0;
 
@@ -2086,9 +1747,6 @@ body {
 
   color: #444;
 }
-
-
-/* ================= CLOSED ================= */
 
 .faq-item.closed .faq-answer {
   max-height: 0;
@@ -2099,15 +1757,9 @@ body {
   padding-bottom: 0;
 }
 
-
-/* ================= FULL WIDTH FAQ ================= */
-
 .faq-full {
   margin-top: 50px;
 }
-
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
 
@@ -2133,9 +1785,6 @@ body {
   }
 
 }
-
-
-/* ================= MOBILE ================= */
 
 @media (max-width: 600px) {
 
