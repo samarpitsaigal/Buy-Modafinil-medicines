@@ -12,8 +12,7 @@ body {
 .delivery-bar {
   width: 100%;
   height: 50px;
-  background: #ed0000;
-
+  background: rgb(10,133,10);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,20 +373,344 @@ body {
 
 }
 
-.hero{
-  max-height: 550px;
-  max-width: 97%;
-  margin: 0 auto;
-  overflow: hidden;
+/* hero  */
+
+
+
+/* Main Banner */
+.hero {
   position: relative;
+  width: 100%;
+  height: 650px; /* image ki height yahan se control hogi */
+  overflow: hidden;
 }
 
-.hero img{
-  height: 100%;
+/* Image */
+.hero-image {
+  position: absolute;
+  inset: 0;
+
   width: 100%;
+  height: 100%;
+
   object-fit: cover;
-  display: block;
+  object-position: center;
 }
+
+/* Left Content */
+.hero-content {
+  position: absolute;
+  top: 80px;
+  left: 4%;
+
+  width: 50%;
+  z-index: 2;
+}
+
+/* Main Heading */
+.hero-content h1 {
+  font-size: clamp(45px, 5vw, 82px);
+  line-height: 0.95;
+
+  font-weight: 800;
+  color: #10254b;
+
+  margin-bottom: 30px;
+}
+
+.hero-content h1 span {
+  color: #1261c9;
+}
+
+/* Sub Heading */
+.hero-content h2 {
+  font-size: clamp(22px, 2.3vw, 38px);
+  font-weight: 600;
+
+  color: #10254b;
+
+  margin-bottom: 45px;
+}
+
+.hero-content h2 b {
+  margin: 0 12px;
+  font-weight: 400;
+}
+
+/* Features */
+.features {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(35px, 5vw, 80px);
+
+  margin-left: 25px;
+}
+
+/* Individual Feature */
+.feature {
+  width: 130px;
+  text-align: center;
+
+  color: #10254b;
+}
+
+.feature i {
+  display: block;
+
+  font-size: 65px;
+  color: #1261c9;
+
+  margin-bottom: 18px;
+}
+
+.feature p {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.feature p strong {
+  font-weight: 800;
+}
+
+/* Order Button */
+.order-btn {
+  margin-top: 55px;
+  margin-left: 0;
+  width: 100%;
+  max-width: 465px;
+  height: 90px;
+  border: none;
+  border-radius: 50px;
+  background: #1265d1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: 34px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.order-btn i {
+  font-size: 42px;
+}
+
+.order-now {
+  font-size: 42px;
+  color: white;
+  text-decoration: none;
+}
+
+.order-btn:hover {
+  transform: translateY(-3px);
+  background: #0956bd;
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+  .order-btn {
+    max-width: 400px;
+    height: 75px;
+    font-size: 28px;
+    gap: 18px;
+  }
+
+  .order-btn i {
+    font-size: 34px;
+  }
+
+  .order-now {
+    font-size: 34px;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+  .order-btn {
+    width: 100%;
+    max-width: 350px;
+    height: 65px;
+    margin-top: 35px;
+    gap: 12px;
+    font-size: 22px;
+  }
+
+  .order-btn i {
+    font-size: 20px;
+  }
+
+  .order-now {
+    font-size: 20px;
+  }
+}
+
+
+/* Small Mobile */
+@media (max-width: 400px) {
+  .order-btn {
+    max-width: 100%;
+    height: 58px;
+    margin-top: 25px;
+    gap: 10px;
+  }
+
+  .order-btn i {
+    font-size: 18px;
+  }
+
+  .order-now {
+    font-size: 18px;
+  }
+}
+
+
+/* Very Small Mobile */
+@media (max-width: 320px) {
+  .order-btn {
+    height: 52px;
+    border-radius: 30px;
+    gap: 8px;
+  }
+
+  .order-btn i {
+    font-size: 15px;
+  }
+
+  .order-now {
+    font-size: 20px;
+  }
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+
+  .hero {
+    height: 550px;
+  }
+
+  .hero-content {
+    top: 55px;
+    left: 4%;
+  }
+
+  .hero-content h1 {
+    font-size: 55px;
+  }
+
+  .hero-content h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .features {
+    gap: 25px;
+    margin-left: 0;
+  }
+
+  .feature i {
+    font-size: 45px;
+  }
+
+  .feature p {
+    font-size: 17px;
+  }
+
+  .order-btn {
+    width: 330px;
+    height: 65px;
+
+    margin-top: 35px;
+
+    font-size: 24px;
+  }
+
+  .order-btn i {
+    font-size: 28px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero-image {
+    object-position: 65% center;
+  }
+
+  .hero-content {
+    top: 35px;
+    left: 20px;
+
+    width: 55%;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+
+  .hero-content h2 {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .hero-content h2 b {
+    margin: 0 5px;
+  }
+
+  .features {
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .feature {
+    width: 75px;
+  }
+
+  .feature i {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+
+  .feature p {
+    font-size: 11px;
+  }
+
+  .order-btn {
+    width: 190px;
+    height: 48px;
+
+    margin-top: 25px;
+
+    gap: 10px;
+
+    font-size: 15px;
+  }
+
+  .order-btn i {
+    font-size: 20px;
+  }
+}
+
+/* hero  */
 
 .products-section {
   max-width: 1200px;
@@ -1167,9 +1490,13 @@ body {
 .choose-product > button{
   border: none;
   background: red;
+}
+.choose-product  button a{
+  text-decoration: none;
   color: white;
   font-size: 20px;
   cursor: pointer;
+
 }
 
 .choose-product >span {

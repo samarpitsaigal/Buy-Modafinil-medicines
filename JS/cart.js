@@ -200,7 +200,7 @@ function updateCartSummary(itemCount) {
   });
 
   summaryContainer.querySelector(".checkout-btn").addEventListener("click", () => {
-    alert("Checkout coming soon!");
+    window.location.href = "shipping.html";
   });
 }
 

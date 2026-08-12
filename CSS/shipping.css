@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.122);
+    
+}
+
+.checkout-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    width: 85%;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3rem;
+    
+}
+
+.checkout-left{
+    flex:1;
+
+}
+
+.checkout-right{
+    flex:1;
+    position:sticky;
+    top:20px;
+}
+
+.shipping-form{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-title{
+  padding-bottom: 10px;
+}
+
+.form-input{
+  height: 40px;
+  padding: 0 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.billing-label{
+  display: flex;
+  gap: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.payment-section{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.billing-text{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.payment-methods{
+  display: flex;
+  gap: 100px;
+}
+
+.payment-span{
+  font-size: 17px !important;
+  font-weight: 500;
+  color: black !important
+}
+
+.terms-condition{
+  font-size: 17px;
+  font-weight: 500; 
+}
+
+.order-btnn{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  font-weight: 500;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.order-btnn:hover{
+  background-color: orange;
+  color: white;
+}
+
+.order-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.order-image-price{
+  display: flex;
+  gap: 20px;
+}
+
+.order-productName-packSize{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.order-productName{
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.829);
+}
+
+.packSize{
+  color: rgba(0, 0, 0, 0.512);
+}
+.order-quantity{
+  color: rgba(0, 0, 0, 0.512);
+}
+.order-price{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 991px){
+  .checkout-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 320px){
+  .order-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .order-price{
+    text-align: end;
+  }
+
+}
+
+.total-price-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.total-price-section p{
+  font-weight: bold;
+  font-size: 23px;
+}

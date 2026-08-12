@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../CSS/shipping.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <main class="checkout-container">
+
+        <!-- Left Side -->
+        <section class="checkout-left">
+
+            <!-- Shipping Address -->
+            <div class="shipping-address">
+
+                <h2 class="section-title">Shipping Address</h2>
+
+                <form class="shipping-form" id="checkout-form">
+
+                    <input class="form-input first-name" type="text" placeholder="First Name" id="first-name"
+                        name="first-name">
+
+                    <input class="form-input last-name" type="text" placeholder="Last Name" id="last-name"
+                        name="last-name">
+
+                    <input class="form-input" type="email" placeholder="Email" id="email" name="email">
+
+                    <input class="form-input phone" type="tel" placeholder="Phone Number" id="phone-number"
+                        name="phone-number">
+
+                    <input class="form-input address" type="text" placeholder="Address" id="address" name="address">
+
+                    <input class="form-input city" type="text" placeholder="City" name="city">
+
+                    <div class="billing-address">
+                        <label class="billing-label">
+                            <input class="billing-checkbox" type="checkbox">
+                            <span class="billing-text">
+                                Same as delivery address
+                            </span>
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+
+            <!-- Payment -->
+            <div class="payment-section">
+
+                <h2 class="section-title">Payment</h2>
+
+                <div class="payment-methods">
+
+                    <label class="payment-option">
+
+                        <input class="payment-radio" type="radio" name="payment">
+
+                        <span class="payment-span">Debit Card</span>
+
+                    </label>
+
+                    <label class="payment-option">
+
+                        <input class="payment-radio" type="radio" name="payment">
+
+                        <span class="payment-span">Bank Transfer</span>
+
+                    </label>
+
+                </div>
+
+                <label class="terms-condition">
+
+                    <input class="terms-checkbox" type="checkbox">
+
+                    <span>I accept Terms & Conditions</span>
+
+                </label>
+
+                <button class="order-btnn" type="submit" form="checkout-form">
+                    ORDER AND PAY
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Right Side -->
+        <aside class="checkout-right">
+
+            <h2 class="summary-title">
+                Order Summary
+            </h2>
+
+            <!-- Product -->
+            <div id="order-item">
+
+            </div>
+
+            <div class="total-price-section">
+                <h2>Total Price:</h2>
+                <p id="total-price"></p>
+            </div>
+            <!-- Price Summary -->
+
+
+        </aside>
+    </main>
+
+        <div id="footer"></div>
+
+
+    <script src="../JS/products.js"></script>
+    <script src="../JS/layout.js"></script>
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/shipping.js"></script>
+</body>
+
+</html>
